@@ -40,6 +40,13 @@ public class AnagramDictionary {
             String word = line.trim();
             wordList.add(word);
             wordSet.add(word);
+            String swatch = sortedLetters(word);
+            if(lettersToWord.containsKey(swatch)){
+                //
+            }else{
+                ArrayList<> new Arra
+                lettersToWord.put(swatch,)
+            }
         }
     }
 
